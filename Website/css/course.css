@@ -1,0 +1,49 @@
+#di
+{
+	margin: 105px 0px 0px 135px;
+	width: 82%;
+	border-left: 1px solid;
+	border-top: 1px solid;
+	border-right: 1px solid;
+	height: 930px;
+}
+#img
+{
+	width: 100%;
+height: 373px;
+}
+#des
+{
+	margin: 0px 0px 0px 10px;
+}
+#dis
+{
+	margin: 310px 0px 0px -608px;
+	width: 96%;
+height: 26%;
+border-left: 1px solid;
+
+border-top: 1px solid;
+}
+#text
+{
+	width: 350px;
+height: 100px;
+}
+#comment
+{
+	margin: 111px 0px 0px 0px;
+}
+#submit
+{
+	margin: 2px 0px 0px 280px;
+	background: #27AE60;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+#submit:hover, #submit:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}

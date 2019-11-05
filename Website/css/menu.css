@@ -1,0 +1,326 @@
+#menupic
+{
+    width: 20px;
+    position: absolute;
+    margin: 17px 2px 0px -21px;
+}
+
+body
+{
+    margin:0px;
+    padding: 1px 0px 0px 0px;
+}
+
+
+
+#anim{
+    -webkit-animation: color-change 3s infinite;
+    -moz-animation: color-change 2s infinite;
+    -o-animation: color-change 3s infinite;
+    -ms-animation: color-change 2s infinite;
+    animation: color-change 2s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: white; }
+}
+@-moz-keyframes color-change {
+    0% { color: orange; }
+    50% { color: blue; }
+    100% { color: black; }
+}
+@-ms-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-o-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: orange; }
+    100% { color: white; }
+}
+
+
+
+.logo
+{
+    margin: -15px 0px 0px 8px;
+    font-size: 26px;
+    position: absolute;
+    height: 68px;
+    
+}
+
+.logo:hover
+{
+    cursor: pointer;
+}
+#link
+{
+    text-decoration: none;
+}
+.bar
+{
+    list-style: none;
+    margin: 0px 0px 0px 195px;
+    padding: 0px;
+    border: none;
+    z-index: 100;
+}
+
+
+.bar li
+{
+    width:150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    border: none;
+    z-index: 101;
+}
+.bar li:hover {
+    background: linear-gradient(132deg, #278c27, #ffbb0f);
+    animation: BackgroundGradientT 13s ease infinite;
+}
+@keyframes BackgroundGradientT {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+.bar ul
+{
+    display: none;
+    position: absolute;
+    margin-left: -40px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.bar li:hover > ul
+{
+    display: block;
+
+}
+.bar ul ul
+{
+    margin-left:  111px;
+    top: 0px;
+    position: absolute;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+}
+.menu
+{
+    width: 100%;
+    margin: 2px 0px 0px -1px;
+}
+.menu ul ul ul li a
+{
+    text-decoration: none;
+}
+
+#insbtn
+{
+    width: 221px;
+    height: 46px;
+    position: absolute;
+    margin: 0px 0px 0px 520px;;
+    font-size: 19px;
+    padding: 0px;
+    background: white;
+    color: black;
+    border-radius: 3px;
+    border: none;
+}
+
+
+#insbtn:hover
+{
+    background: #4e555b;
+    border: 1px solid black;
+    cursor: pointer;
+    opacity: 0.8;
+    background: linear-gradient(80deg, #4e555b, #230445);
+    background-size: 400% 400%;
+    animation: BackgroundGradient2 3s ease infinite;
+    color: white;
+    border-radius: 7px;
+}
+
+@keyframes BackgroundGradient2 {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+#search
+{
+    width: 330px;
+border: 1px solid #404198;
+height: 22px;
+position: absolute;
+font-size: 14px;
+margin: 8px 0px 0px 16px;
+}
+#searchbtn
+{
+    background: #607d8b;
+    border: 1px solid #607d8b;
+    color: white;
+    position: absolute;
+    margin: 8px 0px 0px 350px;
+    height: 26px;
+}
+#searchbtn:hover
+{
+    background: #333;
+    transition: all 0.40s;
+    cursor: pointer;
+}
+.searchbar
+{
+    margin: 4px 0px 0px 390px;
+    position: absolute;
+}
+
+#bimg
+{
+    width: 100%;
+    height: 500px;
+    margin: 0px 0px 0px 0px;
+}
+.back
+{
+    margin: 54px 0px 0px 0px;
+}
+
+.back p
+{
+    font-size: 65px;
+    position: absolute;
+    margin: -110px 2px 3px 35px;
+    background: -webkit-linear-gradient(132deg, #8c0005, #ffcc11);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+body div div
+{
+    float: left;
+}
+
+#mycourses
+{
+    width: 127px;
+    height: 46px;
+    position: absolute;
+    margin: 7px 0px 0px 767px;
+    font-size: 19px;
+    padding: 0px;
+    background: none;
+    color: black;
+    border: none;
+}
+
+.imgcontainer1
+{
+    margin: 27px 0px 0px -32px;
+    display: inline-block;
+}
+
+.avatar1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: -25px 0px 0px 918px;
+    position: absolute;
+}
+.avatar1:hover
+{
+    cursor: pointer;
+}
+#logout
+{
+    position: absolute;
+    margin: 10px 0px 0px 902px;
+    z-index: 100;
+    height: 30px;
+    width: 100px;
+    display: none;
+}
+.darrow {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: -11px 0px 0px 967px;
+    position: absolute;
+
+}
+.darrow:hover
+{
+    cursor: pointer;
+
+}
+
+#logout ul
+{
+    cursor: pointer;
+    width: 81px;
+    height: 50px;
+    list-style-type: none;
+}
+
+#logout ul li:hover {
+    background: linear-gradient(132deg, #278c27, #ffbb0f);
+    animation: BackgroundGradientT 13s ease infinite;
+}
+@keyframes BackgroundGradientT {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+#logout
+{
+    z-index: 1;
+}
+
+
+#logout ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.loginbtn
+{
+    display: block;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    border:2px solid #04a;
+    background-color: #06c;
+
+}
+
+
+#un
+{
+position: absolute;
+margin: -8px 0px 0px 1160px;
+font-size: 21px;
+}

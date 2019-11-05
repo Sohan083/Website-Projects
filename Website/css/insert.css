@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+    /*Image only BG fallback*/
+
+    /*background = gradient + image pattern combo*/
+    background:
+            linear-gradient(80deg,rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
+    background-size: 400% 400%;
+    animation: BackgroundGradient3 10s ease infinite;
+}
+
+
+
+@keyframes BackgroundGradient3 {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+#msg
+{
+	margin: 99px 13px 13px 40%;
+	font-size: 21px;
+}
+#lin
+{
+	margin: 0px 0px 0px 50%;
+	font-size: 20px;
+}

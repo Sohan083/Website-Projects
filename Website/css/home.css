@@ -1,0 +1,619 @@
+#menupic
+{
+    width: 20px;
+    position: absolute;
+    margin: 17px 2px 0px -21px;
+}
+
+body
+{
+    margin:0px;
+    padding: 1px 0px 0px 0px;
+}
+
+.logo
+{
+    margin: -13px 0px 0px 8px;
+    font-size: 26px;
+    position: absolute;
+    height: 68px;
+   
+}
+#link
+{
+    text-decoration: none;
+}
+#anim{
+    -webkit-animation: color-change 3s infinite;
+    -moz-animation: color-change 2s infinite;
+    -o-animation: color-change 3s infinite;
+    -ms-animation: color-change 2s infinite;
+    animation: color-change 2s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: white; }
+}
+@-moz-keyframes color-change {
+    0% { color: orange; }
+    50% { color: blue; }
+    100% { color: black; }
+}
+@-ms-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@-o-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: orange; }
+    100% { color: black; }
+}
+.logo:hover
+{
+    cursor: pointer;
+}
+
+.bar
+{
+    list-style: none;
+    margin: 0px 0px 0px 195px;
+    padding: 0px;
+    border: none;
+}
+
+
+.bar li
+{
+    width:150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    border: none;
+}
+.bar li:hover {
+    background: linear-gradient(132deg, #278c27, #ffbb0f);
+    animation: BackgroundGradientT 13s ease infinite;
+}
+@keyframes BackgroundGradientT {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+.bar ul
+{
+    display: none;
+    position: absolute;
+    margin-left: -40px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.bar li:hover > ul
+{
+    display: block;
+
+}
+.bar ul ul
+{
+    margin-left:  111px;
+    top: 0px;
+    position: absolute;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+}
+.menu
+{
+    width: 100%;
+    margin: 2px 0px 0px -1px;
+
+}
+.menu ul ul ul li a
+{
+    text-decoration: none;
+}
+
+#insbtn
+{
+    width: 221px;
+    height: 46px;
+    position: absolute;
+    margin: 0px 0px 0px 520px;;
+    font-size: 19px;
+    padding: 0px;
+    background: white;
+    color: black;
+    border-radius: 3px;
+}
+
+
+#insbtn:hover
+{
+    background: #4e555b;
+    border: 1px solid black;
+    cursor: pointer;
+    opacity: 0.8;
+    background: linear-gradient(80deg, #4e555b, #230445);
+    background-size: 400% 400%;
+    animation: BackgroundGradient2 3s ease infinite;
+    color: white;
+    border-radius: 7px;
+}
+
+@keyframes BackgroundGradient2 {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+#search
+{
+    width: 330px;
+    border: 1px solid #404198;
+    height: 5px;
+    position: absolute;
+    font-size: 14px;
+}
+#searchbtn
+{
+    background: #607d8b;
+    border: 1px solid #607d8b;
+    color: white;
+    position: absolute;
+    margin: 8px 0px 0px 350px;
+    height: 26px;
+}
+#searchbtn:hover
+{
+    background: #333;
+    transition: all 0.40s;
+    cursor: pointer;
+}
+.searchbar
+{
+    margin: 4px 0px 0px 390px;
+    position: absolute;
+}
+
+#bimg
+{
+    width: 100%;
+    height: 500px;
+    margin: 0px 0px 0px 0px;
+}
+.back
+{
+    margin: 54px 0px 0px 0px;
+}
+
+.back p
+{
+    font-size: 65px;
+    position: absolute;
+    margin: -110px 2px 3px 35px;
+    background: -webkit-linear-gradient(132deg, #8c0005, #ffcc11);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+body div div
+{
+    float: left;
+}
+
+#mycourses
+{
+    width: 127px;
+    height: 46px;
+    position: absolute;
+    margin: 7px 0px 0px 767px;
+    font-size: 19px;
+    padding: 0px;
+    background: none;
+    color: black;
+    border: none;
+}
+
+.imgcontainer1
+{
+    margin: 27px 0px 0px -32px;
+    display: inline-block;
+}
+
+.avatar1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: -25px 0px 0px 918px;
+    position: absolute;
+    display: none;
+}
+.avatar1:hover
+{
+    cursor: pointer;
+}
+#logout
+{
+    position: absolute;
+    margin: 10px 0px 0px 902px;
+    z-index: 100;
+    height: 30px;
+    width: 100px;
+    display: none;
+}
+.darrow {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: -11px 0px 0px 967px;
+    position: absolute;
+
+}
+.darrow:hover
+{
+    cursor: pointer;
+
+}
+
+#logout ul
+{
+    cursor: pointer;
+    width: 81px;
+    height: 50px;
+    list-style-type: none;
+}
+
+#logout ul li:hover {
+    background: linear-gradient(132deg, #278c27, #ffbb0f);
+    animation: BackgroundGradientT 13s ease infinite;
+}
+@keyframes BackgroundGradientT {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+#logout
+{
+    z-index: 1;
+}
+
+
+#logout ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.loginbtn
+{
+    display: block;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    border:2px solid #04a;
+    background-color: #06c;
+
+}
+
+
+.content1
+{
+
+    display: block;
+    position: absolute;
+    bottom: 6px;
+    width: 100%;
+    height: 100%;
+    background-color: #09f;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    box-shadow: 0 6px 0 #06c;
+    border-radius: 5px;
+    transition: all 0.1s linear;
+}
+
+.content1:active
+{
+    bottom: 0;
+    box-shadow: 0 0 0 #06c
+}
+.btn1
+{
+    margin:4px 0px 0px 774px;
+    display: block;
+}
+.signbtn
+{
+    display: block;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    border:2px solid #04a;
+    background-color: #06c;
+
+}
+.content2
+{
+
+    display: block;
+    position: absolute;
+    bottom: 6px;
+    width: 100%;
+    height: 100%;
+    background-color: #09f;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    box-shadow: 0 6px 0 #06c;
+    border-radius: 5px;
+    transition: all 0.1s linear;
+}
+
+.content2:active
+{
+    bottom: 0;
+    box-shadow: 0 0 0 #06c
+}
+.btn2
+{
+    margin: -44px 0px 0px 890px;
+    display: block;
+}
+
+
+/*login Form*/
+
+input[type=text], input[type=password] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size:16px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 20px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+    font-size:20px;
+}
+button:hover {
+    opacity: 0.8;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+.avatar {
+    width: 170px;
+    height: 165px;
+    border-radius: 50%;
+    margin: 8px 0px 0px 95px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+/* Modal Content Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 55px auto 15% auto;
+    border: 1px solid #888;
+    width: 355px;
+    padding-bottom: 490px;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: -90px;
+    top: -35px;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    animation: zoom 0.6s
+}
+@keyframes zoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+
+/*Signup form*/
+
+
+
+
+.details1
+{
+    background: linear-gradient(132deg,#278c27, #ffbb0f);
+    height: 90px;
+    background-size: 400% 400%;
+    margin: -5px 0px 0px 0px;
+    animation: BackgroundGradient 13s ease infinite;
+}
+
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+.courses
+{
+    margin: -9px 0px 0px 155px;
+}
+#online_courses
+{
+    font-size: 25px;
+}
+#learn_as
+{
+    font-size: 20px;
+    margin: -21px 0px 0px 2px;
+}
+.instructors
+{
+    margin: -9px 0px 0px 205px;
+}
+#expert_inst
+{
+    font-size: 25px;
+}
+#find_inst
+{
+    font-size: 20px;
+    margin: -21px 0px 0px 2px;
+}
+.free
+{
+    margin: -9px 0px 0px 150px;
+}
+#free_access
+{
+    font-size: 25px;
+}
+#learn_free
+{
+    font-size: 20px;
+    margin: -21px 0px 0px 2px;
+}
+
+.developmentq
+{
+    margin: 0px 0px 0px 100px;
+}
+
+
+
+.development1
+{
+    width: 236px;
+    height: 235px;
+    margin: 0px 0px 0px 106px;
+    border: 0.5px solid ;
+}
+
+#devpic
+{
+    width: 100%;
+    height: 120px;
+}
+#devq
+{
+    font-size: 21px;
+    margin: 11px 0px 0px 11px;
+}
+#deva
+{
+    margin: 11px 0px 0px 11px;
+    font-size: 18px;
+}
+.development2
+{
+    width: 236px;
+    height: 235px;
+    margin: -237px 0px 0px 422px;
+    border: 0.5px solid ;
+}
+.development3
+{
+    width: 236px;
+    height: 235px;
+    margin: -237px 0px 0px 743px;
+    border: 0.5px solid ;
+}
+.development4
+{
+    width: 236px;
+    height: 235px;
+    margin: -237px 0px 0px 1058px;
+    border: 0.5px solid ;
+}
+
+#dev:hover
+{
+    cursor: pointer;
+    opacity: 0.8;
+    background: linear-gradient(80deg, #6f37ab, #230445);
+    background-size: 400% 400%;
+    animation: BackgroundGradient1 2s ease infinite;
+    color: white;
+    border-radius: 7px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+}
+
+@keyframes BackgroundGradient1 {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+/*
+html {
+    height: 100%;
+    background:
+            linear-gradient(80deg,#00695C,#00838F);
+    background-size: 400% 400%;
+    animation: BackgroundGradient2 7s ease infinite;
+}
+@keyframes BackgroundGradient2 {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}*/
+
+
+#ref
+{
+    text-decoration: none;
+    color: black;
+}
+#un
+{
+position: absolute;
+margin: -1318px 0px 0px 1154px;
+font-size: 21px;
+}

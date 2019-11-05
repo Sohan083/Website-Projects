@@ -1,0 +1,60 @@
+body { 
+  background: url(../image/a2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#dev
+{
+	margin: 0px 0px 50px 0px;
+height: 502px;
+width: 502px;
+
+}
+
+#dev:hover
+{
+    cursor: pointer;
+    opacity: 0.95;
+    background: linear-gradient(80deg, #6f37ab, #230445);
+    background-size: 400% 400%;
+    animation: BackgroundGradient1 2s ease infinite;
+    color: white;
+    border-radius: 7px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+}
+
+@keyframes BackgroundGradient1 {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+#ref
+{
+    text-decoration: none;
+    color: black;
+}
+.legend
+{
+	font: bold;font-weight: bolder;font-style: italic;color: white;
+}
+
+#fo
+{
+	width: 500px;
+	height: 500px;
+	border: 1px solid  #FFA055;
+	font: bold;font-weight: bolder;font-style: italic;color: white;
+	font-size: 15px;
+}
+#fo:hover
+{
+	border-radius: 7px;
+}
+#devpic
+{
+	width: 500px;
+	height: 275px;
+}
